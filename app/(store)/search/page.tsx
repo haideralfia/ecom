@@ -1,7 +1,4 @@
-async function SearchPage({
-    // studwy more about searchPrams in next.js 15 and general and why not useParams hook
-	searchParams,
-}: {
+async function SearchPage({searchParams,}:{
 	searchParams: {
 		query: string;
 	};
@@ -12,3 +9,4 @@ async function SearchPage({
 }
 
 export default SearchPage;
+ // study more typescript
